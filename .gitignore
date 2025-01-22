@@ -1,0 +1,27 @@
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# assets
+*.svg
+*.mp3
+*.jpg
+*.json
+
+
+
+# IDE specific files
+.vscode/
+.idea/

@@ -1,0 +1,70 @@
+/* utilities class */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.border {
+    margin: 3px;
+    border: 2px solid red;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.border-rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* scroll bar css */
+/* For WebKit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    /* Dark color for the thumb */
+    border-radius: 6px;
+    /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222;
+    /* Dark color for the track */
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.display-none{
+    display: none;
+}

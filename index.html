@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left-part bg-black">
+            <div class="close display-none">
+                <img class="invert cursor" width="30px" src="/img/close.svg" alt="">
+            </div>
+            <div class="home bg-grey p-1 m-1 border-rounded">
+                <div class="logo"><img width="100rem" class="invert" src="/img/logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="/img/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="/img/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library p-1 m-1 bg-grey border-rounded">
+                <div class="heading">
+                    <img class="invert" src="/img/library.svg" alt="Your Library">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- listing songs using javascript -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/" id="" class="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id="" class=""
+                            data-encore-id="textLink"><span data-encore-id="type">Safety &amp; Privacy Center</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="" class=""
+                            data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="" class=""
+                            data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="" class=""
+                            data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/" id="" class=""
+                            data-encore-id="textLink"><span data-encore-id="type">Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right-part bg-grey border-rounded">
+            <div class="header ">
+                <div class="nav">
+                    <div class="hamburger-container">
+                        <img class="hamburger invert cursor" src="/img/hamburger.svg" alt="Menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#ffffff" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="sign-up-btn">Sign Up</button>
+                    <button class="login-btn">Log In</button>
+                </div>
+            </div>
+            <div class="musify-playlist">
+                <h1>Musify Playlist</h1>
+                <div class="card-container">
+                </div>
+                <div class="playbar">
+                    <!-- seekbar -->
+                    <div class="seekbar cursor">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <!-- playbar -->
+                    <div class="play-button-container">
+                        <div class="song-info"></div>
+                        <div class="play-buttons flex justify-center">
+                            <img class="cursor" width="35" id="previous" src="/img/pre-song.svg" alt="">
+                            <img class="cursor" width="35" id="play" class="playmeyar" src="/img/play.svg" alt="">
+                            <img class="cursor" width="35" id="next" src="/img/next-song.svg" alt="">
+                        </div>
+                        <div class="time-vol">
+                            <div class="song-time"></div>
+                            <div class="volume">
+                                <img width="25" src="/img/volume.svg" alt="" id="volume-icon">
+                                <div class="range">
+                                    <input type="range" name="volume" id="" class="cursor">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
